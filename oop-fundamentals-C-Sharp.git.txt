@@ -1,0 +1,20 @@
+Object-Oriented Programming Fundamentals in C#
+
+Introduction to OOP
+
+A Class is code. It provides Definition of the Object type-> Contain Properties, Methods. Eg .Customer
+Object is the instance of the class -> contains object variable that can be used to st/modify the properties of the class 
+Eg . var customer = new Constomer();
+
+ The term business object normally refers to a class
+
+OOP-> Object-oriented programming is an approach to designing and building applications that are flexible, natural, well-crafted, and testable by focusing on objects that interact cleanly with one another.object-oriented programming is an iterative process
+
+
+2) Identifying Classes from Requirements
+
+Analyze the Business Problem. Decide The Classes & its members by the requirement by consideration of time,abstraction & encapsulation.
+
+3) Building Entity Classes
+
+Layering the Structure of the Apllication such as UI,Bussiness Logic & Data Access Layer
