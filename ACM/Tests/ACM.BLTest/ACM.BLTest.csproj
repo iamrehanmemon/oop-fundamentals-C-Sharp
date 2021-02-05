@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F2BB99D5-5856-4A92-BDF6-04E8852C63C7}</ProjectGuid>
+    <ProjectGuid>{8672FA7F-D955-4A53-BC5D-CB15FD6B4F3E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ACM.BLTest</RootNamespace>
@@ -51,13 +51,16 @@
   <ItemGroup>
     <Compile Include="CustomerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CustomerRepositoryTest.cs" />
+    <Compile Include="ProductRepositoryTest.cs" />
+    <Compile Include="OrderRepositoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ACM.BL\ACM.BL.csproj">
-      <Project>{06a0cfc4-ed90-4351-9692-a4e149027687}</Project>
+      <Project>{9e83c133-325b-4f2e-a576-dbe94d1268bb}</Project>
       <Name>ACM.BL</Name>
     </ProjectReference>
   </ItemGroup>
